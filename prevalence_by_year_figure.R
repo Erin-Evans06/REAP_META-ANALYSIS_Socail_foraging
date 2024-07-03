@@ -14,4 +14,7 @@ year_sum <- year_data %>%
 ggplot(year_sum, aes(x=Year,y=n,color=Data)) +
   geom_line() + labs(title = "Prevalence of Research over Time",
                      x = "Year",
-                     y = "Number of Publications")
+                     y = "Number of Publications") +
+  theme_classic()
+
+
