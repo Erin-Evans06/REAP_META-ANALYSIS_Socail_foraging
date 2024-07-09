@@ -15,6 +15,6 @@ ggplot(year_sum, aes(x=Year,y=n,color=Data)) +
   geom_line() + labs(title = "Prevalence of Research over Time",
                      x = "Year",
                      y = "Number of Publications") +
-  theme_classic()
+  theme_classic()+theme(plot.title = element_text(hjust=0.5))
 
 
