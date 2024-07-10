@@ -16,7 +16,6 @@ ggplot(fig_b, aes(x=Publication.Date,y=Sample.Size)) +
   labs(title = "Sample Size vs Publication Date",x = "Date",y = "Sample Size") + 
   theme_classic()+theme(plot.title = element_text(hjust=0.5))+
   scale_y_continuous(expand = expansion(mult = c(0, 0.1))) +
-  expand_limits(y = 0)+
+  expand_limits(y = 0) +
   scale_y_log10() 
-
 
