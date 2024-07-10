@@ -1,0 +1,15 @@
+Tag,Date,Main Figure,Spieces,Sex,Shoal Composition,Age Group,Total # Subjects,Method,sample size n=,Statistical Value,r-value
+Reinthal_1986,12/1986,table II,A. Bahianus/ A. Coeruleus/ A. Chirurgus,mixed,single spieces,mixed,181,F-test,181,45.4,0.4497969437
+Nunes_2012_Fig4a,9/2013,Fig4 a,Halichoeres penrosei,Initial Phase,single spieces,mixed,25,r^2,25,0.608,0.7797435476
+Nunes_2012_Fig4b,9/2013,Fig4b,Halichoeres penrosei,Terminal Phase,single spieces,mixed,15,r^2,15,0.426,0.6526867549
+Nunes_2012_Fig4c,9/2013,Fig4c,Halichoeres poeyi,Initial Phase,single spieces,mixed,21,r^2,21,0.624,0.7899367063
+Nunes_2012_Fig4d,9/2013,Fig4d,Halichoeres poeyi,Terminal Phase,single spieces,mixed,16,r^2,16,0.423,0.6503845017
+Nunes_2012_Fig5e,9/2013,Fig5e,Halichoeres barsiliensis,Initial Phase,single spieces,mixed,15,r^2,15,0.14,0.3741657387
+Nunes_2012_Fig6f,9/2013,Fig6F,Halichoeres barsiliensis,Terminal Phase,single spieces,mixed,10,r^2,10,0.104,0.3224903099
+Morgan_1987_Fig4a,10/1987,Fig4a,Pimephales notatus,mixed,single spieces,mixed,400,webplot,15,,0.6755
+Morgan_1988_Fig2,9/1988,Fig 2,Pimephales notatus,mixed,single spieces,mixed,600,webplot,15,,0.1958
+Foster_1985_Fig1,8/1985,Fig 1,Acanthurus coeruleus,mixed,single spieces,mixed,231,r,231,0.497,0.497
+Hamilton_2003_Fig2,12/2003,Fig 2,Kyphosus cornelii,mixed,single spieces,mixed,109,r^2,33,0.18,0.4242640687
+Harpaz_2020_Fig1c,8/2020,Fig 1c,Danio rerio,mixed,single spieces,adult,106,webplot,34,,0.5074
+Hintz_2018_Fig5a,10/2018,Fig5a,Oncorhynchus kisutch,mixed,single spieces,young,433,F-test,92,31.16,0.5071297543
+Hintz_2018_Fig5b,10/2018,Fig5b,Oncorhynchus kisutch,mixed,single spieces,adult,267,F-test,55,8.14,0.3648795178
