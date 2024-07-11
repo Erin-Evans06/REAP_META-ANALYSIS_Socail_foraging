@@ -24,3 +24,4 @@ meta <- metacor(cor = R,
                 comb.random = TRUE)
 #see results
 summary(meta)
+
