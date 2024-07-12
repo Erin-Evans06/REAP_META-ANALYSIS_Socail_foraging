@@ -1,8 +1,6 @@
-#download packaged
-install.packages("extrafont")
 #load library 
 library(meta)
-library(extrafont)
+library(tidyverse)
 #Prepare the data
 data <- data.frame(
   Study = c(
@@ -61,18 +59,14 @@ meta_analysis <- metagen(
 # Plot the forest plot with extended x-axis and without random effects model details
 forest(meta_analysis,
        xlab = "Correlation Coefficient",
-       xlim = c(-0.6, 1), 
+       xlim = c(-1, 1), 
        leftcols = c("studlab", "COR", "lower_CI", "upper_CI"),
-       leftlabs = c("Study", "COR", "95% CI (lower)", "95% CI (upper)"),
+       leftlabs = c("Data Source", "COR", "95% CI (lower)", "95% CI (upper)"),
        rightcols = "Weight",
        rightlabs = "% Weight",
        digits = 3,
        colgap = unit(5, "mm"),
        print.tau2 = FALSE,  
        print.Q = FALSE,
-       print.QE = FALSE,fpTxtGp = fpTxtGp(
-         label = gpar(fontfamily = "serif", cex = 0.8),  
-         xlab = gpar(fontfamily = "serif", cex = 1), 
-         title = gpar(fontfamily = "serif", cex = 1.2)))
-       
+       print.QE = FALSE, )
        
